@@ -68,22 +68,18 @@ function changeMood(moodName) {
 }
 
 function handleHappyClick() {
-
     changeMood("happy")
 }
 
 function handleCalmClick() {
-
     changeMood("calm")
 }
 
 function handleAngryClick() {
-
     changeMood("angry")
 }
 
 function handleSleepyClick() {
-
     changeMood("sleepy")
 }
 

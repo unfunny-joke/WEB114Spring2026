@@ -1,0 +1,109 @@
+/* Callie Shrum, May 7 2026 */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: coral;
+    margin: 0;
+}
+
+#wrapper {
+    width: 66%;
+    margin: auto;
+    padding: 10px;
+    background-color: #fca07f;
+    box-shadow: #ad593b 0px 0px 10px 10px;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+}
+
+#scoreBug {
+    position: absolute;
+    margin: 2% 0 0 2%;
+    padding: 5px 20px;
+    width: 5%;
+    background-color: #fca07f;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#popup {
+    width: 75%;
+    margin: auto 10%;
+    text-align: center;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: #ad593b 0px 0px 5px 5px;
+    z-index: 2;
+    position: absolute;
+}
+
+#diffBox {
+    background-color: #fca07f;
+    padding: 2%;
+    margin: 5%;
+    border-radius: 12px;
+}
+
+.diffBtn {
+    padding: 14px 50px;
+    margin: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: coral;
+    border-radius: 12px;
+}
+
+#diffBtns {
+    margin: 0 5%;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.startBtn {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    background-color: #fca07f;
+    border-radius: 12px;
+}
+
+#quizImg {
+    max-width: 75%;
+    max-height: 500px;
+}
+
+#answers{
+    width: 90%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.answerButton {
+    padding: 15px;
+    margin: 5px;
+    background-color: coral;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#finalPopup {
+    width: 75%;
+    margin: auto 10%;
+    text-align: center;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: #ad593b 0px 0px 5px 5px;
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+}

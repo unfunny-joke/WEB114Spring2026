@@ -1,0 +1,57 @@
+<!-- Callie Shrum, May 7 2026 -->
+
+<!-- 
+    A simple quiz game where the user is shown an animal, and they have to answer what it is. 
+    The game will keep track of their score, and display it at the end.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Animal Quiz</title>
+        <script src="quizgame.js" defer></script>
+        <link rel="stylesheet" href="quizgame.css">
+    </head>
+
+    <body>
+        <div id="scoreBug">
+            <h2>Score:</h2>
+            <h2 id="score">0</h2> 
+        </div>
+
+        <div id="wrapper">
+            <div id="popup">
+                <h1>Welcome to Animal Quiz!</h1>
+                <p>The game is simple. You will be shown a picture of an animal. Correctly guess the animal to score a point!</p>
+                <div id="diffBox">
+                    <h2>Choose your difficulty:</h2>
+                    <div id="diffBtns">
+                        <input class="diffBtn" id="easyBtn" value="Easy" type="button">
+                        <input class="diffBtn" id="hardBtn" value="Hard" type="button">
+                    </div>
+                </div>
+                
+                <input class="startBtn" id="start" value="Let's Play!" type="button">
+            </div>
+
+            <h1>What's this animal?</h1>
+
+            <img src="images/cat.jpg" id="quizImg">
+
+            <div id="answers">
+                <input class="answerButton" id="answer1" value="" type="button">
+                <input class="answerButton" id="answer2" value="" type="button">
+                <input class="answerButton" id="answer3" value="" type="button">
+                <input class="answerButton" id="answer4" value="" type="button">
+            </div>
+
+            <div id="finalPopup" style="visibility: hidden;">
+                <h1>Final Score:</h1>
+                <h1 id="finalScore">0</h1>
+                <p id="message">Message</p>
+            </div>
+        </div>
+        
+    </body>
+</html>
